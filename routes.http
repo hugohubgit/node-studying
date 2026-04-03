@@ -2,18 +2,20 @@ POST http://localhost:3333/videos
 Content-Type: application/json
 
 {
-    "title": "Video 01",
-    "description": "This is Video 01",
+    "title": "Item node",
+    "description": "This is Video node",
     "duration": 100
 }
 
+### 
+
+// Use /videos?search= to search in title
+GET http://localhost:3333/videos?search=node
+
 ###
 
-GET http://localhost:3333/videos
-
-###
-
-PUT http://localhost:3333/videos/4cdf4733-9443-43c5-ae40-6ea83693b60e
+// Use videos/id to PUT
+PUT http://localhost:3333/videos/132a65a0-db27-41fd-b644-3a0e08b3677b
 Content-Type: application/json
 
 {
@@ -24,4 +26,5 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3333/videos/id
+// Use videos/id to DELETE
+DELETE http://localhost:3333/videos/132a65a0-db27-41fd-b644-3a0e08b3677b
