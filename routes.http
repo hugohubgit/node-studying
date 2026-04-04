@@ -1,21 +1,21 @@
-POST http://localhost:3333/videos
+POST https://node-studying-thkl.onrender.com/videos
 Content-Type: application/json
 
 {
-    "title": "Item three",
-    "description": "This is Video three",
+    "title": "Item five",
+    "description": "This is Video five",
     "duration": 100
 }
 
 ### 
 
 // Use /videos?search= to search in title
-GET http://localhost:3333/videos
+GET https://node-studying-thkl.onrender.com/videos
 
 ###
 
 // Use videos/id to PUT
-PUT http://localhost:3333/videos/4d4e5ff9-74b1-4227-b825-f160b23e5060
+PUT https://node-studying-thkl.onrender.com/videos/82fd3ed9-2566-4450-baef-71af048cf9c7
 Content-Type: application/json
 
 {
@@ -27,4 +27,4 @@ Content-Type: application/json
 ###
 
 // Use videos/id to DELETE
-DELETE http://localhost:3333/videos/4d4e5ff9-74b1-4227-b825-f160b23e5060
+DELETE https://node-studying-thkl.onrender.com/videos/336a4b02-6aba-421e-87fe-235472b7a0d2
