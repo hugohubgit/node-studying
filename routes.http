@@ -2,8 +2,8 @@ POST http://localhost:3333/videos
 Content-Type: application/json
 
 {
-    "title": "Item node",
-    "description": "This is Video node",
+    "title": "Item three",
+    "description": "This is Video three",
     "duration": 100
 }
 
@@ -27,4 +27,4 @@ Content-Type: application/json
 ###
 
 // Use videos/id to DELETE
-DELETE http://localhost:3333/videos/132a65a0-db27-41fd-b644-3a0e08b3677b
+DELETE http://localhost:3333/videos/4d4e5ff9-74b1-4227-b825-f160b23e5060
