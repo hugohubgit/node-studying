@@ -10,17 +10,17 @@ Content-Type: application/json
 ### 
 
 // Use /videos?search= to search in title
-GET http://localhost:3333/videos?search=node
+GET http://localhost:3333/videos
 
 ###
 
 // Use videos/id to PUT
-PUT http://localhost:3333/videos/132a65a0-db27-41fd-b644-3a0e08b3677b
+PUT http://localhost:3333/videos/4d4e5ff9-74b1-4227-b825-f160b23e5060
 Content-Type: application/json
 
 {
-    "title": "Video 050505050",
-    "description": "This is Video 05050505",
+    "title": "Video updated",
+    "description": "This is Video updated",
     "duration": 100
 }
 
